@@ -407,6 +407,19 @@ experiments:
       - episode_runtime
       - num_episodes
 
+  - name: "randrot_noise_10distinctobj_dist_agent_vocus2"
+    files:
+      baseline: ycb10_base
+      proposed: wandb_prop
+    metrics:
+      - percent_correct
+      - used_mlh
+      - match_steps
+      - rotation_error
+      - runtime
+      - episode_runtime
+      - num_episodes
+      
   - name: "base_77obj_dist_agent"
     files:
       baseline: ycb77_base
